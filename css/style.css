@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+:root {
+	/* COLORS */
+
+	--bgcolor: #222222;
+	--maximumRed: #E50914;
+	--redPigment: #F40612;
+	--white: #FFFFFF;
+	--black: #000000;
+	--silverChalice: #AAAAAA;
+	--sonicSilver: #757575;
+	--dimGray: #6A6A6A;
+	--onyx: #404040;
+	--jet: #303030;
+	--brightNavyBlue: #0071EB;
+
+	/* FONTS */
+
+	--NSBlack: 'NetflixSansBlack';
+	--NSBold: 'NetflixSansBold';
+	--NSIcon: 'NetflixSansIcon';
+	--NSLight: 'NetflixSansLight';
+	--NSMedium: 'NetflixSansMedium';
+	--NSRegular: 'NetflixSansRegular';
+	--NSThin: 'NetflixSansThin';
+
+}
+
+@font-face {
+	font-family: 'NetflixSansBlack';
+	src: url('../assets/fonts/NetflixSansBlack.ttf');
+}
+
+@font-face {
+	font-family: 'NetflixSansBold';
+	src: url('../assets/fonts/NetflixSansBold.ttf');
+}
+
+@font-face {
+	font-family: 'NetflixSansIcon';
+	src: url('../assets/fonts/NetflixSansIcon.ttf');
+}
+
+@font-face {
+	font-family: 'NetflixSansLight';
+	src: url('../assets/fonts/NetflixSansLight.ttf');
+}
+
+@font-face {
+	font-family: 'NetflixSansMedium';
+	src: url('../assets/fonts/NetflixSansMedium.ttf');
+}
+
+@font-face {
+	font-family: 'NetflixSansRegular';
+	src: url('../assets/fonts/NetflixSansRegular.ttf');
+}
+
+@font-face {
+	font-family: 'NetflixSansThin';
+	src: url('../assets/fonts/NetflixSansThin.ttf');
+}
+
+body {
+	font-family: var(--NSRegular);
+	color: var(--white);
+	 background-color: var(--black);      
+}
+
+
+/* HEADER */
+
+.navbar {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2% 5%;
+	z-index: 10;
+}
+
+.navbar__brand {
+	width: 150px;
+	height: 100%;
+}
+
+.brand__logo {
+	width: 100%;
+	height: 100%;
+}
+
+.languages__drop__down {
+	background: transparent;
+	border: none;
+	color: var(--white);
+}
+
+.languages__drop__down:focus {
+	outline: none;
+}
+
+.dropdown__container {
+	border: 1px solid var(--white);
+	padding: 0.4rem;
+	border-radius: 4px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.nav__item {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.signin__button {
+	background-color: var(--maximumRed);
+	border: 1px solid --(maximumRed);
+	color: var(--white);
+	padding: 0.25rem 0.5rem;
+	border-radius: 4px;
+}
+
+.navbar__nav__items {
+	display: flex;
+	gap: 10px;				
+}
+
+.hero__bg__image__container {
+	width: 100%;
+	height: 80vh;
+}
+
+.hero__bg__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.hero__bg__overlay {
+	position: absolute;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <img src="img/logo.png" alt="Netflix Brand" class="brand__logo">
+            </div>
+
+            <div class="navbar__nav__items">
+                <div class="nav__item">
+                    <div class="dropdown__container">
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="languages" id="languagesSelect" class="languages__drop__down">
+                            <option value="English" selected>English</option>
+                            <option value="English">Portuguese</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="nav__item">
+                    <buttom class="signin__button">Sign in</buttom>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__bg__image__container">
+                <img src="img/hero.jpg" alt="BG hero image" class="hero__bg__image"/>
+            </div>
+
+            <div class="hero__bg__overlay"></div>
+
+            <div class="hero__card">
+                <h1>
+                    Unlimited Movies TV,<br />
+                    Shows and More.
+                </h1>
+                <p class="hero__subtitle">Watch anywhere and cancel anytime.</p>
+                <p class="hero__description">Ready to watch? Enter your email to create or restart your
+                    membership .</p>
+
+                <div class="email__form__container">
+                    <form action="#" autocomplete="on">
+                        <label for="email" class="email__label">
+                            <input type="email" class="email__input" name="email" id="iemail">
+                        </label>
+                    </form>
+                    <button class="primary__button">
+                        Get Started <i class="fal fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

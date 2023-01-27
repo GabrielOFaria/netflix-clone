@@ -1,0 +1,11 @@
+# vscode configs
+.vscode/
+
+# node
+node_modules/
+
+# envinronment variables
+.env
+
+# mac hidden files
+.DS_Store
