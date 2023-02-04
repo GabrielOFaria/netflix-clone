@@ -24,3 +24,9 @@ footer {
     border: 1px solid ;
     
 }
+
+.footer__row__3 > .dropdown__container > .language__drop__down {
+	color: var(--jet4);
+}
+
+
