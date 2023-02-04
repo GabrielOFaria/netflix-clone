@@ -48,11 +48,11 @@
         height: 3rem;
     }
 
-    .poster__details>h4 {
+    .poster__details > h4 {
         font-size: 18px;
     }
 
-    .poster__details>h6 {
+    .poster__details > h6 {
         font-size: 14px;
     }
 
@@ -70,7 +70,7 @@
         padding: 1rem 5rem;
     }
 
-    .faq__get__starterd__email {
+    .faq__get__started__email {
         width: 75%;
         display: flex;
         flex-direction: column;
@@ -101,11 +101,11 @@
         gap: 30px;
     }
 
-    .hero__card {
+    /* .hero__card {
         top: 50%;
         left: 50%;
         transform: translate(-50%, 50%);
-    }
+    } */
 
     .form__container {
         width: 50%;
@@ -114,7 +114,7 @@
     .email__form__container {
         flex-direction: row;
         align-items: center;
-        gap: 20px;
+        gap: 1px;
     }
 
     .primary__button {
@@ -163,7 +163,7 @@
         padding: 1rem 25rem;
     }
 
-    .faq__get__starterd__email {
+    .faq__get__started__email {
         transform: translateX(16%);
     }
 
