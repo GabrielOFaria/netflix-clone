@@ -20,6 +20,8 @@
 	--onyx: #404040;
 	--jet: #303030;
 	--jet2: #222;
+	--jet3: #333;
+	--jet4: #757575;
 	--brightNavyBlue: #0071EB;
 	
 }
@@ -28,6 +30,11 @@ body {
 	color: var(--white);
 	background-color: var(--black);
 	font-family: "Poppins", sans-serif;
+	color: var(jet4);
+}
+
+.footer__row__3 > .dropdown__container > .language__drop__down {
+	color: var(--jet4);
 }
 
 
