@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 20px;
     background-color: var(--jet);
     border: 1px solid var(--jet);
     color: var(--white);

@@ -57,7 +57,8 @@
     }
 
     .faq__title {
-        font-size: 20px;
+        font-size: 25px;
+        cursor: pointer;
     }
 
     .faq__heading {
