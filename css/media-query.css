@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .hero__bg__image__container {
         height: 100vh;
     }
@@ -20,7 +20,7 @@
     .hero__subtitle,
     .hero__description {
         font-size: 1.3rem;
-    }
+    }    
 
     .feature {
         padding: 4rem;
@@ -48,11 +48,11 @@
         height: 3rem;
     }
 
-    .poster__details > h4 {
+    .poster__details>h4 {
         font-size: 18px;
     }
 
-    .poster__details > h6 {
+    .poster__details>h6 {
         font-size: 14px;
     }
 
@@ -79,7 +79,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {  
     .navbar {
         padding: 2% 5%;
     }
@@ -94,18 +94,12 @@
     }
 
     .dropdown__container {
-        padding: 10px 5px;
+        padding: 6.5px 5px;
     }
 
     .navbar__nav__items {
         gap: 30px;
     }
-
-    /* .hero__card {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-    } */
 
     .form__container {
         width: 50%;
@@ -168,11 +162,11 @@
     }
 
     footer {
-        padding: 2rem 20rem;
+        padding: 2rem 10rem;
         justify-content: flex-start;
         text-align: center;
         flex-wrap: nowrap;
-        
+
     }
 
     .footer__row__2 {
@@ -188,6 +182,3 @@
     }
 }
 
-@media (min-width: 1254px) {
-    
-}

@@ -1,4 +1,6 @@
 footer {
+    font-size: 12px;
+    line-height: 20px;
     border-top: 8px solid var(--jet3);
     padding: 2rem 1rem;
     color: var(--jet4);
@@ -7,26 +9,33 @@ footer {
     gap: 20px;
 }
 
-.footer__row__2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+li {
+    list-style-type: none;
+    line-height: 3em;
 }
+
 
 .footer__row__1 > h4 {
     font-size: 15px;
     font-weight: 500;
 }
 
+.footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
 .footer__row__3 > .dropdown__container {
     width: fit-content;
-    border: 1px solid ;
-    
+    border: 1px solid var(--jet5);
+    padding-left: 50px    
 }
 
 .footer__row__3 > .dropdown__container > .language__drop__down {
-	color: var(--jet4);
+	color: var(--jet4);    
 }
 
 
