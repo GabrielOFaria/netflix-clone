@@ -23,6 +23,7 @@ This project was developed to practice responsive layouts and modern UI design.
 
 ## 📸 Preview
 
+![Netflix Clone Demo](Animação.gif)
 
 ---
 
