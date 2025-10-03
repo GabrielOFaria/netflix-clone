@@ -22,7 +22,7 @@ This project was developed to practice responsive layouts and modern UI design.
 ---
 
 ## 📸 Preview
-(Add a screenshot or GIF of your project here)
+
 
 ---
 
