@@ -1,14 +1,19 @@
-# 🎬 Netflix Clone
 
-A responsive Netflix-inspired interface built with **HTML, CSS, and SCSS**.  
-This project was developed to practice responsive layouts and modern UI design.
+---
+
+## 🔑 Instagram Login Page – README
+
+```markdown
+# 🔑 Instagram Login Page
+
+A recreation of the Instagram login page focusing on **UI/UX** and responsive design.
 
 ---
 
 ## 🚀 Features
-- Responsive design for desktop and mobile
-- Netflix-like layout with hero section and movie cards
-- Styled with SCSS for modular and clean CSS
+- Pixel-perfect recreation of Instagram login
+- Responsive layout for different screen sizes
+- Clean and semantic HTML/CSS
 
 ---
 
@@ -16,7 +21,6 @@ This project was developed to practice responsive layouts and modern UI design.
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="40"/>
 </p>
 
 ---
@@ -28,7 +32,5 @@ This project was developed to practice responsive layouts and modern UI design.
 
 ## ▶️ How to Run
 ```bash
-# Clone this repository
-git clone https://github.com/GabrielOFaria/netflix-clone
-
-# Open index.html in your browser
+git clone https://github.com/GabrielOFaria/login-instagram
+open index.html
