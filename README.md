@@ -1,18 +1,34 @@
-<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/shapeShifterGrayAlphaBackground.gif" alt="Gray shape shifter" height="60"/></a></p>
-<h1 align="center">Gabriel</h1>
-<p align="center">
-Website Netflix Frontend clone, Built with Pure CSS3 using Flexbox, JS.</p>
+# 🎬 Netflix Clone
 
-<p align="center">
-	<a href="https://github.com/GabrielOFaria/netflix-clone"><img src="http://randojs.com/images/2.3kb-shield.png" height="20"/></a>
-    
-</p><br/><br/>
+A responsive Netflix-inspired interface built with **HTML, CSS, and SCSS**.  
+This project was developed to practice responsive layouts and modern UI design.
 
+---
 
-### Link Web site
+## 🚀 Features
+- Responsive design for desktop and mobile
+- Netflix-like layout with hero section and movie cards
+- Styled with SCSS for modular and clean CSS
 
-https://gabrielofaria.github.io/netflix-clone/
+---
 
+## 🔧 Technologies Used
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="40"/>
+</p>
 
+---
 
+## 📸 Preview
+(Add a screenshot or GIF of your project here)
 
+---
+
+## ▶️ How to Run
+```bash
+# Clone this repository
+git clone https://github.com/GabrielOFaria/netflix-clone
+
+# Open index.html in your browser
